@@ -1,13 +1,15 @@
+package ch02;
+
 public class VariableExample3 {
     public static void main(String[] args) {
         char c = 'B';
-                System.out.printf("%c : %d", c, (int)c);
+        System.out.printf("%c : %d", c, (int)c);
 
-                        int i = 69;
-                        System.out.printf("%c : %d\n", (char)i, i);
+        int i = 69;
+        System.out.printf("%c : %d\n", (char)i, i);
 
-                        boolean bl = false;
-                        System.out.println(bl);
+        boolean bl = false;
+        System.out.println(bl);
     }
 }
 
@@ -17,3 +19,4 @@ public class VariableExample3 {
 //->방향으로 자동형변환 가능, 반대방향은 수동으로 가능
 
 //byte < char < short < int < long < float < double 전부 string만나면 string으로 변함
+
