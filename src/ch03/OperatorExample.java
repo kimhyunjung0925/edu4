@@ -1,6 +1,4 @@
-package ch3;
-
-import java.sql.SQLOutput;
+package ch03;
 
 public class OperatorExample {
     public static void main(String[] args) {
