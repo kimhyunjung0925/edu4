@@ -11,6 +11,10 @@ package ch05;public class ArrayCopyExample {
         System.out.println("arr1[0] : " + arr1[0]);
         System.out.println("arr1[0] : " + arr2[0]);
 
+        System.out.println(arr1.hashCode());
+        System.out.println(arr2.hashCode());
         System.out.println(arr1 == arr2);
     }
 }
+// ing float double char boolean 을 주로 사용
+// arr1의 주소값을 arr2가 복사

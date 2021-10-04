@@ -2,7 +2,7 @@ package ch05;
 
 public class MethodExample {
     public static void main(String[] args) {
-        //infut 0, output X (void형)
+        //input 0, output X (void형)
         sum(10,20);
         sum(50,120);
         minus(100,50,30);

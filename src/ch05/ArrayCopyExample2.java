@@ -13,3 +13,4 @@ public class ArrayCopyExample2 {
         System.out.println(arr1 == arr2);
     }
 }
+//arr와 같은 값을 복사해서 생성 주소값 다름
