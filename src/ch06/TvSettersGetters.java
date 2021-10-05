@@ -1,6 +1,6 @@
 package ch06;
 
-public class Tv {
+public class TvSettersGetters {
     private String brand; // = null
     private int inch; // = 0
 
