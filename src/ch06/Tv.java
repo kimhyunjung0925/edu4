@@ -1,13 +1,20 @@
 package ch06;
 
-public class TvSettersGetters {
+public class Tv {
     private String brand; // = null
     private int inch; // = 0
+
+    // 생성자를 통해서 값 넣는 법
+    public Tv() {}
+    public Tv(String brand) {
+        this.brand = brand;
+    }
 
     public String getBrand() {
         return brand;
     }
 
+    // setters 이용해 값 넣는 법
     public void setBrand(String brand) {
         this.brand = brand;
     }

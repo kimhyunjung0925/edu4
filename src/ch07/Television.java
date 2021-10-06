@@ -33,7 +33,5 @@ public class Television implements RemoteControl{
 }
 
 /*
-
-
-
+인터페이스 상속은 implements
  */
