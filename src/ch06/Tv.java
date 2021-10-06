@@ -1,7 +1,7 @@
 package ch06;
 
 public class Tv {
-    private String brand; // = null
+    public String brand; // = null
     private int inch; // = 0
 
     // 생성자를 통해서 값 넣는 법
@@ -26,6 +26,7 @@ public class Tv {
     public void setInch(int inch) {
         this.inch = inch;
     }
+
 }
 
 // getters,setters = 외부와 통신할 수 있는 통로, 메소드
