@@ -10,11 +10,10 @@ public class Tv {
         this.brand = brand;
     }
 
+    // setters 이용해 값 넣는 법
     public String getBrand() {
         return brand;
     }
-
-    // setters 이용해 값 넣는 법
     public void setBrand(String brand) {
         this.brand = brand;
     }
@@ -22,7 +21,6 @@ public class Tv {
     public int getInch() {
         return inch;
     }
-
     public void setInch(int inch) {
         this.inch = inch;
     }

@@ -9,7 +9,9 @@ public class StaticCalc {
     }
 }
 
-/* static 메소드 장려!!
+/*
+    static 메소드 장려!!
    1.파라미터 값만 사용할 때 (맴버필드 사용 X)
    2.멤버필드르 사용하는데 그 멤버필드가 static인 경우 (잘 없음)
+
  */

@@ -8,7 +8,7 @@ public class Game {
         CardDeck cd = new CardDeck();
         Dealer dealer = new Dealer();
         Gamer gamer = new Gamer();
-        Rule rule = new Rule();
+        // Rule rule = new Rule(); //rule에서 static으로 객체화 해서 안써도 됨, static 안했으면 써야함! extends도 되어있고
 
         for(int i=0;i<2;i++) {
             dealer.receiveCard(cd.getCard());
@@ -27,6 +27,6 @@ public class Game {
         }
         System.out.println("---딜러 카드 리스트---");
         dealer.showAllMyCards();
-        rule.getWinner(dealer,gamer);
+        Rule.getWinner(dealer,gamer);
     }
 }

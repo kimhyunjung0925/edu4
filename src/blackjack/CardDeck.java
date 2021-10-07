@@ -43,12 +43,10 @@ public class CardDeck {
     }
 
     public void showAllCards() {
-        /*
-        for(int i = 0; i<cards.size(); i++) {
+        for(int i = 0; i<cards.size(); i++) { //카드를 계속 뽑아 수가 줄기 때문에 리터럴값 대신 사이즈로 설정!
             Card c = cards.get(i);
             System.out.println(c);
         }
-        */
 
         //ForEach 위에거랑 같은뜻
         for(Card c: cards) {

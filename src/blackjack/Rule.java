@@ -3,7 +3,7 @@ package blackjack;
 import java.util.List;
 
 public class Rule {
-    public int getScore(List<Card> cards) {
+    public static int getScore(List<Card> cards) {
         int sumPoint = 0;
         for (int i = 0; i < cards.size(); i++) {
             Card c = cards.get(i);
@@ -12,7 +12,7 @@ public class Rule {
         return sumPoint;
     }
 
-    public void getWinner(Dealer dealer, Gamer gamer) {
+    public static void getWinner(Dealer dealer, Gamer gamer) {
         int dealerScore = getScore(dealer.openCards());
         int gamerScore = getScore(gamer.openCards());
 

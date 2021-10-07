@@ -11,6 +11,6 @@ public class MethodExample2 {
         return n1 + n2;
     }
 }
-//비void형은 부조건 return 넣어야함!!
+//비void형은 무조건 return 넣어야함!!
 //return 결과물이 결과물값과 같아야함!!
 //return 값이 10이면 무조건 10 값 출력
